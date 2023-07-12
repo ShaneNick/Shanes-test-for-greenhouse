@@ -1,3 +1,4 @@
+//ADDED JS SIGNUP FUNCTIONALITY TO THIS (NOT WORKING) - SHANE
 import { useState } from "react";
 import styled from "@emotion/styled";
 import { useMutation } from "@apollo/client";
