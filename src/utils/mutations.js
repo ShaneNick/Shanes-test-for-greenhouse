@@ -1,9 +1,8 @@
 //ADDED THESE TO FILE -SHANE
-
 import { gql } from '@apollo/client';
 
 export const ADD_USER = gql`
-  mutation AddUser($socialTitle: String!, $firstName: String!, $lastName: String!, $email: String!, $password: String!, $birthDate: String!) {
+  mutation AddUser($socialTitle: String, $firstName: String!, $lastName: String!, $email: String!, $password: String!, $birthDate: String) {
     addUser(socialTitle: $socialTitle, firstName: $firstName, lastName: $lastName, email: $email, password: $password, birthDate: $birthDate) {
       token
       user {
@@ -45,6 +44,27 @@ export const LOGIN = gql`
         email
         birthDate
       }
+    }
+  }
+`;
+
+export const UPDATE_USER = gql`
+  mutation UpdateUser($id: ID!, $shippingAddress: String, $shippingCity: String, $shippingState: String, $shippingZip: String, $billingAddress: String, $billingCity: String, $billingState: String, $billingZip: String) {
+    updateUser(_id: $id, shippingAddress: $shippingAddress, shippingCity: $shippingCity, shippingState: $shippingState, shippingZip: $shippingZip, billingAddress: $billingAddress, billingCity: $billingCity, billingState: $billingState, billingZip: $billingZip) {
+      _id
+      socialTitle
+      firstName
+      lastName
+      email
+      birthDate
+      shippingAddress
+      shippingCity
+      shippingState
+      shippingZip
+      billingAddress
+      billingCity
+      billingState
+      billingZip
     }
   }
 `;
