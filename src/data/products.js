@@ -1,0 +1,178 @@
+// assets
+import ProductImage1 from "../assets/products/product1.jpg";
+import ProductImage2 from "../assets/products/product2.jpg";
+import ProductImage3 from "../assets/products/product3.jpg";
+import ProductImage4 from "../assets/products/product4.jpg";
+import ProductImage5 from "../assets/products/product5.jpg";
+import ProductImage6 from "../assets/products/product6.jpg";
+import ProductImage7 from "../assets/products/product7.jpg";
+import ProductImage8 from "../assets/products/product8.jpg";
+import ProductImage9 from "../assets/products/product9.jpg";
+
+// Definition of productsData array containing product objects
+const productsData = [
+  {
+  _id: "1",
+  image: ProductImage1,
+  productName: "America Marigold",
+  price: 23.45,
+  rating: 5,
+  link: "/products/1",
+  category: "Fig Trees",
+  },
+  {
+  _id: "2",
+  image: ProductImage2,
+  productName: "Black Eyed Susan",
+  price: 25.45,
+  rating: 5,
+  link: "/products/2",
+  category: "Fig Trees",
+  },
+  {
+  _id: "3",
+  image: ProductImage3,
+  productName: "Common Yarrow",
+  price: 65.0,
+  rating: 5,
+  link: "/products/3",
+  category: "Maple Trees",
+  },
+  {
+  _id: "4",
+  image: ProductImage4,
+  productName: "Doublefile Viburnum",
+  price: 67.45,
+  rating: 5,
+  link: "/products/4",
+  category: "Shrub Trees",
+  },
+  {
+  _id: "5",
+  image: ProductImage5,
+  productName: "Doublefile Viburnum",
+  price: 67.45,
+  rating: 5,
+  link: "/products/5",
+  category: "Shrub Trees",
+  },
+  {
+  _id: "6",
+  image: ProductImage6,
+  productName: "America Marigold",
+  price: 23.45,
+  rating: 5,
+  link: "/products/6",
+  category: "Fig Trees",
+  },
+  {
+  _id: "7",
+  image: ProductImage7,
+  productName: "Common Yarrow",
+  price: 65.0,
+  rating: 5,
+  link: "/products/7",
+  category: "Fruits Trees",
+  },
+  {
+  _id: "8",
+  image: ProductImage8,
+  productName: "America Marigold",
+  price: 23.45,
+  rating: 5,
+  link: "/products/8",
+  category: "Fruits Trees",
+  },
+  {
+  _id: "9",
+  image: ProductImage9,
+  productName: "America Marigold",
+  price: 23.45,
+  rating: 5,
+  link: "/products/9",
+  category: "Fruits Trees",
+  },
+  {
+  _id: "10",
+  image: ProductImage7,
+  productName: "Common Yarrow",
+  price: 65.0,
+  rating: 5,
+  link: "/products/10",
+  category: "Maple Trees",
+  },
+  {
+  _id: "11",
+  image: ProductImage8,
+  productName: "America Marigold",
+  price: 23.45,
+  rating: 5,
+  link: "/products/11",
+  category: "Fig Trees",
+  },
+  {
+  _id: "12",
+  image: ProductImage9,
+  productName: "America Marigold",
+  price: 23.45,
+  rating: 5,
+  link: "/products/12",
+  category: "Fig Trees",
+  },
+  {
+  _id: "13",
+  image: ProductImage7,
+  productName: "Common Yarrow",
+  price: 65.0,
+  rating: 5,
+  link: "/products/13",
+  category: "Maple Trees",
+  },
+  {
+  _id: "14",
+  image: ProductImage8,
+  productName: "America Marigold",
+  price: 23.45,
+  rating: 5,
+  link: "/products/14",
+  category: "Fig Trees",
+  },
+  {
+  _id: "15",
+  image: ProductImage9,
+  productName: "America Marigold",
+  price: 23.45,
+  rating: 5,
+  link: "/products/15",
+  category: "Fig Trees",
+  },
+  {
+  _id: "16",
+  image: ProductImage7,
+  productName: "Common Yarrow",
+  price: 65.0,
+  rating: 5,
+  link: "/products/16",
+  category: "Maple Trees",
+  },
+  {
+  _id: "17",
+  image: ProductImage8,
+  productName: "America Marigold",
+  price: 23.45,
+  rating: 5,
+  link: "/products/17",
+  category: "Fig Trees",
+  },
+  {
+  _id: "18",
+  image: ProductImage9,
+  productName: "America Marigold",
+  price: 23.45,
+  rating: 5,
+  link: "/products/18",
+  category: "Fig Trees",
+  },
+  ];
+  
+  export default productsData;
